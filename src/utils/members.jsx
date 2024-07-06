@@ -7,6 +7,7 @@ import aashishkanted from '../assets/students/aashishkanted.jpg'
 import arjunputhli from '../assets/students/arjunputhli.jpg'
 import nitya from '../assets/students/nitya.jpg'
 import aasim from "../assets/students/aasim.jpeg"
+import ritwik from "../assets/students/ritwik.jpg"
 
 import arya from '../assets/students/arya.jpeg'
 import raghav from '../assets/students/raghav.jpeg'
@@ -28,6 +29,13 @@ let student = [
     email:"f20220483@goa.bits-pilani.ac.in",
     linkedIn:"https://www.linkedin.com/in/om-jaiswal-b4716a190",
     image:om
+  },
+  {
+    name: 'Ritwik',
+    mobile: '+919999326476',
+    email: 'f20220470@goa.bits-pilani.ac.in',
+    linkedIn: 'https://www.linkedin.com/in/ritwik-sharma-609a38268',
+    image: ritwik,
   },
   {
     name:"Parth Shah",
