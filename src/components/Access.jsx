@@ -47,22 +47,36 @@ function Access() {
               Proposal
             </Heading>
             <Text fontSize="xl">
-              <Highlight query={['proposals']} styles={{ color: 'red' }}>
-                Sandbox only accepts proposals for student projects only before
-                the start of the semester.
-              </Highlight>{' '}
-              So the form has closed now for this Semester! But don't worry, even if your project is not a part of
-              Sandbox, you can still submit a {' '}
+              <b>
+                Sandbox has started accepting proposals for student projects
+                only before the start of the semester for Upcoming Semester-I of
+                2024-25 year!{' '}
+              </b>
+              Sandbox can assist projects by means of funding for parts, and an
+              array of equipment, from laser cutter to 3D printers,
+              microcontrollers to motors. The lab is well equipped to see you
+              bring your ideas to reality!
+              <b>
+                {' '}
+                Apply through the{' '}
+                <Link
+                  color="blue.600"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSelN1pYBmSamhTbTcxNO4ngrP2ZRfxZm4K_6hdCKE1kLvUBaA/viewform?usp=sf_link"
+                  target="_blank"
+                >
+                  Project Registration Form
+                </Link>{' '}
+                now .
+              </b>
+              <br />Follow the{' '}
               <Link
                 color="blue.600"
-                href="https://docs.google.com/forms/d/1Trk-21kGepHb9bmn-ntyph6d1621ZZ96yXIOcgc315M/viewform?edit_requested=true"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSelN1pYBmSamhTbTcxNO4ngrP2ZRfxZm4K_6hdCKE1kLvUBaA/viewform"
                 target="_blank"
               >
-                Request Proposal Form
+                Project Proposal template
               </Link>{' '}
-              to use some of the Sandbox facilities in order to to see your
-              project to completion. Please read the terms and conditions before
-              filling the request form.
+              while submitting your proposal. <br />
             </Text>
           </Box>{' '}
           <Box paddingTop="2rem" fontSize="xl">

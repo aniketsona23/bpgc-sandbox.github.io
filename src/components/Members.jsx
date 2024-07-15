@@ -23,11 +23,11 @@ function Members() {
           backgroundImage={bg}
           minHeight="670px"
           backgroundPosition="50% 50%"
-          height="calc('100vh -
-          64px')"
+          height="calc('100vh - 64px')"
           display="flex"
           justifyContent="center"
           alignItems="center"
+          fontSize="20px"
         >
           <Stack
             color="white"
@@ -36,7 +36,7 @@ function Members() {
             animate={{ y: 0 }}
           >
             <Heading textAlign="center">Members</Heading>
-            <Text>
+            <Text textAlign="center">
               Connect with the current student and faculty members to know more
               about who we are.
             </Text>

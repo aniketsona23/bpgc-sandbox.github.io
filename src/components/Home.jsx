@@ -57,23 +57,26 @@ function Home() {
           color="white"
           backgroundImage={bg}
           backgroundPosition="center"
-          height="80vh"
+          height="90vh"
+          alignContent="center"
           backgroundSize="cover"
           backgroundRepeat="none"
           position="relative"
         >
           <Box
-            position="absolute"
+          display="flex"
+          justifyContent="center"
+          flexDirection="column"
+          alignItems="center"
             as={motion.div}
             initial={{ x: -250 }}
             animate={{ x: -10 }}
             transition={{ type: 'tween' }}
-            top="40%"
-            left="15%"
-            width="13rem"
+            
+            width="100%"
           >
             <Heading>Welcome to Sandbox</Heading>
-            <Text marginTop="1rem" fontSize="md">
+            <Text marginTop="1rem" fontSize="20px" width="80%" textAlign="center">
               Sandbox is BITS Goa's Incubation Center which aims to foster
               innovative projects and ideas by providing State-of-the-Art
               facilities and guidance to the students.
