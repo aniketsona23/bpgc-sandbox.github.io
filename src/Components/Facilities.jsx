@@ -1,19 +1,19 @@
-import Card from "./FacilitiesCard.jsx";
-import "../styles/facilities.css";
-import { useRef } from "react";
-import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
-import ChevronLeftRoundedIcon from "@mui/icons-material/ChevronLeftRounded";
-import { facilities } from "../utils/facilities.jsx";
+import Card from './FacilitiesCard.jsx';
+import '../styles/facilities.css';
+import { useRef } from 'react';
+import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
+import ChevronLeftRoundedIcon from '@mui/icons-material/ChevronLeftRounded';
+import { facilities } from '../utils/facilities.jsx';
 
 function Facilities() {
   const scrollCardTicker = useRef(null);
 
-  const handleScrollRight = (e) => {
+  const handleScrollRight = e => {
     if (scrollCardTicker.current) {
       scrollCardTicker.current.scrollLeft += 300;
     }
   };
-  const handleScrollLeft = (e) => {
+  const handleScrollLeft = e => {
     if (scrollCardTicker.current) {
       scrollCardTicker.current.scrollLeft -= 300;
     }
@@ -22,7 +22,7 @@ function Facilities() {
   return (
     <div className="facilities-section">
       <header>
-        <h1 className="section-header">Facilities at Sandbox</h1>
+        <h1 className="section-header">Facilities</h1>
         <div className="slider-arrows">
           <ChevronLeftRoundedIcon
             id="slider-arrow-icon"

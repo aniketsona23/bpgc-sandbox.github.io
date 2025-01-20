@@ -78,3 +78,17 @@
     font-size: 25px;
   }
 }
+@media screen and (max-width: 350px) {
+  .project-section .arrow-icon {
+    font-size: 30px;
+  }
+  .project-section .slider-arrows {
+    gap: 15px;
+  }
+  .project-section .section-header {
+    font-size: 20px;
+  }
+  .project-section header {
+    padding: 0 15px;
+  }
+}
